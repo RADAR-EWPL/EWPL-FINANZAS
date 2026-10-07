@@ -1,0 +1,18 @@
+    {
+      "name": "EWPL Finanzas Personales",
+      "short_name": "EWPL Finanzas",
+      "description": "Acceso directo a EWPL Finanzas Personales",
+      "start_url": "./index.html",
+      "scope": "./",
+      "display": "standalone",
+      "background_color": "#071526",
+      "theme_color": "#071526",
+      "icons": [
+        {
+          "src": "./icon-512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
+    }

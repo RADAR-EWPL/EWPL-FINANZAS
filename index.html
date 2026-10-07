@@ -1,0 +1,33 @@
+    <!doctype html>
+    <html lang="es">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta name="theme-color" content="#071526">
+      <title>EWPL Finanzas</title>
+      <link rel="manifest" href="./manifest.webmanifest">
+      <link rel="icon" type="image/png" href="./icon-512.png">
+      <link rel="apple-touch-icon" href="./icon-512.png">
+      <style>
+        html,body{height:100%;margin:0;background:#071526;color:#fff;font-family:Arial,sans-serif}
+        body{display:grid;place-items:center}
+        .box{text-align:center;padding:24px}
+        img{width:112px;height:112px;border-radius:24px}
+        h1{margin:16px 0 6px}
+        p{color:#91abc8}
+        a{display:inline-block;margin-top:14px;padding:12px 18px;border-radius:10px;background:#248cff;color:#fff;text-decoration:none;font-weight:700}
+      </style>
+    </head>
+    <body>
+      <div class="box">
+        <img src="./icon-512.png" alt="EWPL Finanzas">
+        <h1>EWPL Finanzas</h1>
+        <p>Abriendo Finanzas Personales…</p>
+        <a href="https://script.google.com/macros/s/AKfycbzFmToT76cLYY3PO7UtjWCYOi5SiDaNUep7TTwEuKoBIGt6oIKL4YAKC5jjQxGpe_qT_w/exec">Abrir ahora</a>
+      </div>
+      <script>
+        if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
+        setTimeout(function(){ location.replace("https://script.google.com/macros/s/AKfycbzFmToT76cLYY3PO7UtjWCYOi5SiDaNUep7TTwEuKoBIGt6oIKL4YAKC5jjQxGpe_qT_w/exec"); }, 450);
+      </script>
+    </body>
+    </html>
